@@ -5,10 +5,10 @@ import PageRoutes from "./utils/routes/PageRoutes";
 //navigate("/login");
 
 function App() {
-  const navigate = useNavigate();
-  useEffect(() => {
-    navigate("/login");
-  }, []);
+  // const navigate = useNavigate();
+  // useEffect(() => {
+  //   navigate("/login");
+  // }, []);
   return <PageRoutes />;
 }
 
